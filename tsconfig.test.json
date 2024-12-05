@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+      "module": "commonjs",
+      "target": "es6",
+      "noImplicitAny": true,
+      "strictNullChecks": true,
+      "esModuleInterop": true,
+      "skipLibCheck": true,
+      "sourceMap": true,
+      "outDir": "./dist/tests"
+    },
+    "include": ["**/*.spec.ts", "**/*.test.ts", "src/**/*"]
+  }
+  

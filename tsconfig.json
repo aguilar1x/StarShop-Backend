@@ -1,13 +1,11 @@
 {
   "compilerOptions": {
-    "target": "ES6",
-    "module": "CommonJS",
-    "outDir": "./dist",
-    "rootDir": "./src",
-    "strict": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "strictPropertyInitialization": false, // Desactiva la verificación estricta para propiedades no inicializadas
+    "target": "es6",
+    "module": "commonjs",
     "esModuleInterop": true,
     "skipLibCheck": true
-  },
-  "include": ["src"],
-  "exclude": ["node_modules"]
+  }
 }
